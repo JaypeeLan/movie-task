@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --dark-grey: #292929;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background: red;
+  color: #fff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* -------------navbar---------------- */
+nav {
+  background-color: var(--dark-grey);
+  width: 1440px;
+  height: 140px;
+  padding-top: 40px;
+  padding-left: 77px;
 }
 
-.App-link {
-  color: #61dafb;
+nav div {
+  height: 60px;
+  width: 193px;
+  border: 1px solid white;
+  display: grid;
+  place-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav div p {
+  font-family: "DM sans", serif;
+  font-size: 1.8rem;
+  letter-spacing: -2px;
+}
+
+/* -------------------hero section------------------- */
+#hero {
+  background: url(../src/files/hero_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  padding-left: 77px;
+  padding-right: 873px;
+  padding-top: 109px;
+  padding-bottom: 159px;
+}
+
+#hero .heroText {
+  border: 1px solid blue;
+  max-width: 490px;
+  min-height: 282px;
+}
+
+#hero .heroText p {
+  font-weight: 700;
+  font-size: 72px;
 }
