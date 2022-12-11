@@ -60,7 +60,7 @@ nav div p {
 
 #hero .heroText p {
   font-weight: 700;
-  font-size: 72px;
+  font-size: clamp(60px, 1.2vw, 72px);
 }
 
 /* -------------------search------------------------ */

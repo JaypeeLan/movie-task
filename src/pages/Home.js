@@ -4,7 +4,7 @@ import useFetch from "../hooks/useFetch";
 
 const Home = () => {
   const { data, error, isLoading } = useFetch(
-    `http://www.omdbapi.com/?i=tt3896198&apikey=5e386377`
+    `https://www.omdbapi.com/?i=tt3896198&apikey=5e386377`
   );
 
   return (
