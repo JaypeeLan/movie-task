@@ -1,0 +1,29 @@
+#cards {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+
+#cards > p {
+  margin-bottom: 20px;
+  color: #000;
+}
+
+#cards .movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#cards .movies > div {
+  background-color: #000;
+  border: 1px solid black;
+  margin: 10px 0px;
+  width: 200px;
+  max-width: 100%;
+  min-height: 150px;
+  padding: 10px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+}

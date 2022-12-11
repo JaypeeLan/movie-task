@@ -12,14 +12,14 @@ html {
 }
 
 body {
-  background: red;
+  overflow-x: hidden;
   color: #fff;
 }
 
 /* -------------navbar---------------- */
 nav {
   background-color: var(--dark-grey);
-  width: 1440px;
+  width: 2000px;
   height: 140px;
   padding-top: 40px;
   padding-left: 77px;
@@ -44,6 +44,8 @@ nav div p {
   background: url(../src/files/hero_bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   min-height: 80vh;
   padding-left: 77px;
   padding-right: 873px;
@@ -52,7 +54,6 @@ nav div p {
 }
 
 #hero .heroText {
-  border: 1px solid blue;
   max-width: 490px;
   min-height: 282px;
 }
@@ -60,4 +61,21 @@ nav div p {
 #hero .heroText p {
   font-weight: 700;
   font-size: 72px;
+}
+
+/* -------------------search------------------------ */
+.search {
+  margin: 40px 20px;
+}
+
+.search p {
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.search input {
+  width: 1306px;
+  max-width: 100%;
+  height: 34px;
+  border: 1px solid #000000;
 }
